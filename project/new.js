@@ -96,7 +96,7 @@ document.getElementById('video').style.display="inline-block"
     document.getElementById('about').appendChild(p)
     //info
   var p = document.createElement("p");
-  p.innerHTML=`Source: <a href=${about.info}>see more..</a>`
+  p.innerHTML=`Source: <a href=${about.info} target="_blank">see more..</a>`
   document.getElementById('about').appendChild(p)
   
   } else {
